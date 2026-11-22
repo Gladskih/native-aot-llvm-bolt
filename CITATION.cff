@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using these metadata."
+type: software
+title: "LLVM BOLT with .NET 10 Native AOT on Linux x86-64"
+abstract: >-
+  This repository documents an LLVM BOLT experiment on Linux x86-64 executables
+  built with .NET 10 Native AOT. It provides a minimal reproducer for a BOLT crash
+  during whole-file processing, source and scripts for a profile-guided experiment
+  on the statically linked Brotli encoder, and the raw measurements.
+authors:
+  - family-names: "Gladskikh"
+    given-names: "Sergei"
+    orcid: "https://orcid.org/0009-0008-0586-8200"
+repository-code: "https://github.com/Gladskih/native-aot-llvm-bolt"
+url: "https://github.com/Gladskih/native-aot-llvm-bolt"
+keywords:
+  - ".NET"
+  - "Native AOT"
+  - "LLVM BOLT"
+  - "ELF"
+  - "post-link optimization"
